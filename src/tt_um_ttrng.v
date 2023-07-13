@@ -24,6 +24,8 @@ module tt_um_ttrng #( parameter MAX_COUNT = 10_000_000 ) (
 );
 	reg [7:0] bytes_out;
 	assign uo_out = bytes_out;
+	assign uio_out = bytes_out; // TODO: this line exists to satisfy the linter
+	assign uio_oe = bytes_out; // TODO: this line exists to satisfy the linter
 
 	always @(posedge clk) begin
 		bytes_out <= 8'b0000001;
