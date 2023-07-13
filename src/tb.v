@@ -33,7 +33,7 @@ module tb (
     wire [7:0] number = uo_out[7:0];
     wire [1:0] selector = 2'b01;
 
-    ttrng #(.MAX_COUNT(1000)) ttrng (
+    ttrng ttrng (
         .selector (selector),
         .number (number)
     );
