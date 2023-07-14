@@ -38,8 +38,8 @@ documentation:
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:
-    - sel1
-    - sel2
+    - select bit 1
+    - select bit 2
     - none
     - none
     - none
