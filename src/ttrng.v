@@ -3,6 +3,9 @@ module ttrng (
     output reg [7:0] number
 );
 
+// Wire 64 SR Latches into an xor then into an 8-bit D flip flop.
+// The SR Latch inputs are the clock, and the Q outputs are all xor'd together into a D flip flop
+
 always @(*) begin
     case(selector)
         default:
