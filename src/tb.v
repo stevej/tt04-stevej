@@ -1,9 +1,6 @@
 `default_nettype none
 `timescale 1ns/1ps
 
-`include "tt_um_ttrng.v"
-`include "ttrng.v"
-
 module tb (
     );
 
