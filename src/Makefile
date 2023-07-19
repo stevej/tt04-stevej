@@ -7,4 +7,6 @@ TOPLEVEL = tb
 
 MODULE = test
 
+COCOTB_RESOLVE_X = ZEROS
+
 include $(shell cocotb-config --makefiles)/Makefile.sim
